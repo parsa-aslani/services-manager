@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "iranyekan";
+  src: url("../public/fonts/Yekan.woff"), url("../public/fonts/Yekan.eot"),
+    url("../public/fonts/Yekan.ttf");
+}
+.Toastify__toast {
+  color: rgb(255, 255, 255) !important;
+  font-family: "iranyekan" !important;
+}
+body {
+  margin: 0;
+  font-family: "iranyekan" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

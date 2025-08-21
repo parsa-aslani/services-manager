@@ -1,0 +1,10 @@
+export const BACKGROUND = "#33415c";
+export const MAINBLUE = "#0466c8";
+export const DARKBLUE = "#023e7D";
+export const COLDBLUE = "#3a7ca5";
+export const GRAY = "#7d8597";
+export const DARKGRAY = "#4f5664";
+export const TEXTCOLOR = "#30363fff";
+export const HEADINGCOLOR = "#151920ff";
+export const WHITE = "#ffffff";
+export const DARKWHITE = "#d3d6deff";
