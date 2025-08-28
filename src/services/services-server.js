@@ -1,5 +1,5 @@
 import axios from "axios";
-const site_url = "http://localhost:9000";
+const site_url = "https://service-manager-bz23.onrender.com";
 // route http://localhost:9000/services
 export const getallservices = () => {
   const url = `${site_url}/services`;
