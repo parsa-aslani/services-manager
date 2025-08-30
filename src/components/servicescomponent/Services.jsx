@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { Servicescontext } from "../../contexts/servicescontext";
 // jsx
 const Services = () => {
-  const { loading, services, filterservice } = useContext(Servicescontext);
+  const { loading, filterservice } = useContext(Servicescontext);
   return loading ? (
     <Loading />
   ) : (

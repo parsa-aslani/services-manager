@@ -1,6 +1,6 @@
 /* eslint-disable default-case */
 // import
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "../site-style.css";
 import HeaderSearch from "./servicesearch/HeaderSearch";
 import { Link } from "react-router-dom";
@@ -9,7 +9,6 @@ import { useContext } from "react";
 import { Servicescontext } from "../contexts/servicescontext";
 // react router
 const Header = () => {
-  const [headerimage, setheaderimage] = useState(null);
   const { handleShow } = useContext(Servicescontext);
   return (
     <section className="header-box shadow mx-auto">
