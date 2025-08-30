@@ -11,33 +11,10 @@ import { Servicescontext } from "../contexts/servicescontext";
 const Header = () => {
   const [headerimage, setheaderimage] = useState(null);
   const { handleShow } = useContext(Servicescontext);
-  useEffect(() => {
-    let headerimageurl = null;
-    const randomnumber = Math.floor(Math.random() * 4);
-    switch (randomnumber) {
-      case 0: {
-        headerimageurl = require("../assets/image/crop-colleagues-using-laptop-table.jpg");
-        break;
-      }
-      case 1: {
-        headerimageurl = require("../assets/image/people-working-their-office.jpg");
-        break;
-      }
-      case 2: {
-        headerimageurl = require("../assets/image/workers-long-wooden-table.jpg");
-        break;
-      }
-      case 3: {
-        headerimageurl = require("../assets/image/young-employees-sitting-office-table-using-laptop-team-work-brainstorming-meeting-concept.jpg");
-        break;
-      }
-    }
-    setheaderimage(headerimageurl);
-  }, []);
   return (
     <section className="header-box shadow mx-auto">
       <img
-        src={headerimage}
+        src={require("../assets/image/workers-long-wooden-table.jpg")}
         alt=""
         className="header-background-img shadow-lg"
       />
