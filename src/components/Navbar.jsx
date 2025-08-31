@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-brand">
           <img
-            src={require("../assets/image/domingo-1755600103247.png")}
+            src={`${process.env.PUBLIC_URL}/image/domingo-1755600103247.png`} 
             alt=""
             className="navbar-site-icon"
           />
@@ -77,7 +77,7 @@ const Navbar = () => {
                 <h5 style={{ color: DARKWHITE }} className="my-auto fw-bold">
                   دسترسی سریعی وجود نداره{" "}
                   <img
-                    src={require("../assets/image/sad.gif")}
+                    src={`${process.env.PUBLIC_URL}/image/sad.gif`} 
                     alt="not-found-404"
                     className="not-found-quickaccess my-auto"
                   />

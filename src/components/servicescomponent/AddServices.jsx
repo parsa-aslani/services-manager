@@ -190,7 +190,7 @@ const AddServices = ({ submitaddservice }) => {
           </form>
         </div>
         <img
-          src={require("../../assets/image/crop-colleagues-using-laptop-table.jpg")}
+          src={`${process.env.PUBLIC_URL}/image/crop-colleagues-using-laptop-table.jpg`}
           alt="add-service-image"
           className="add-service-img d-none d-md-flex"
         />

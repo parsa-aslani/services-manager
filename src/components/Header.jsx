@@ -13,13 +13,13 @@ const Header = () => {
   return (
     <section className="header-box shadow mx-auto">
       <img
-        src={require("../assets/image/workers-long-wooden-table.jpg")}
+        src={`${process.env.PUBLIC_URL}/image/workers-long-wooden-table.jpg`} 
         alt=""
         className="header-background-img shadow-lg"
       />
       <div className="site-header d-flex flex-column justify-content-center">
         <img
-          src={require("../assets/image/domingo-1755600546395.png")}
+          src={`${process.env.PUBLIC_URL}/image/domingo-1755600546395.png`} 
           alt="karban-logo"
           className="header-site-logo mx-auto mb-3"
         />

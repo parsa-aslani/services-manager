@@ -42,7 +42,7 @@ const Calculator = () => {
               }}
             >
               <img
-                src={require("../assets/image/icons8-backspace-50 (1).png")}
+                src={`${process.env.PUBLIC_URL}/image/icons8-backspace-50 (1).png`}
                 alt="back-icon"
                 className="w-100"
               />
@@ -132,7 +132,7 @@ const Calculator = () => {
               }}
             >
               <img
-                src={require("../assets/image/icons8-multiply-50.png")}
+                src={`${process.env.PUBLIC_URL}/image/icons8-multiply-50.png`}
                 alt="multiplication-icon"
                 className="w-100"
               />
@@ -183,7 +183,7 @@ const Calculator = () => {
               }}
             >
               <img
-                src={require("../assets/image/icons8-divide-50.png")}
+                src={`${process.env.PUBLIC_URL}/image/icons8-divide-50.png`}
                 alt="division-icon"
                 className="w-100"
               />

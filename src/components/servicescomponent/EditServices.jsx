@@ -23,7 +23,7 @@ const EditServices = ({ submiteditservice, setloading }) => {
         setloading(true);
         const { data: getviewdata } = await getservice(serviceId);
         setservice(getviewdata);
-        setloading(false)
+        setloading(false);
       } catch (err) {
         console.log(err.message);
         setloading(false);
@@ -43,7 +43,7 @@ const EditServices = ({ submiteditservice, setloading }) => {
       </div>
       <div className="d-flex my-4 add-service-box mx-auto shadow-lg">
         <img
-          src={require("../../assets/image/people-working-their-office.jpg")}
+          src={`${process.env.PUBLIC_URL}/image/people-working-their-office.jpg`}
           alt="add-service-image"
           className="edit-service-img d-none d-md-flex"
         />

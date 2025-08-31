@@ -23,7 +23,7 @@ const Services = () => {
           <div className="my-4 servise-not-found mt-3 p-2 d-flex flex-column justify-content-end align-items-center mx-auto">
             <h3 className="servise-not-found-header">خدمتی پیدا نشد !</h3>
             <img
-              src={require("../../assets/image/groundhog-day.gif")}
+              src={`${process.env.PUBLIC_URL}/image/groundhog-day.gif`}
               alt="service-not-found"
               className="servise-not-found-icon"
             />
